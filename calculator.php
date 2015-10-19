@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <title>Calculator</title>
 
-<h1><marquee style="border:#33FFFF 2px SOLID"><FONT COLOR=#FFFFFF>Welcome to     Flashlight Calculator!</FONT></MARQUEE></h1>
+<h1><marquee style="border:#33FFFF 2px SOLID"><FONT COLOR=#FFFFFF>Welcome to     Flashlight Calculator WOW!</FONT></MARQUEE></h1>
 </head>
 
 <?php
