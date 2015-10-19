@@ -9,7 +9,8 @@ read -p "Please choose an operator (+ - * /)" operator
 if [ $operator = "+" ]; then
 	echo $answer1+$answer2 = $((answer1+answer2))
 elif [ $operator = "-" ]; then
-	echo $answer1-$answer2 =$((answer1-answer2))
+
+        echo $answer1*$answer2 =$((answer1*answer2))
 elif [ $operator = "/" ]; then
 	echo $answer1/$answer2 =$((answer1/answer2))
 fi
