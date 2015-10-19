@@ -17,12 +17,9 @@ if( isset( $_REQUEST['calculate'] ))
 		$add2 = $_REQUEST['lvalue'];
 		$res= $add1+$add2;
 	}
-	if($operator=="-")
-	{
-		$add1 = $_REQUEST['fvalue'];
-		$add2 = $_REQUEST['lvalue'];
-		$res= $add1-$add2;
-	}
+
+	
+	
 	if($operator=="*")
 	{
 		$add1 = $_REQUEST['fvalue'];
