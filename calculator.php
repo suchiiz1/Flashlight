@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <title>Calculator</title>
 
-<h1><marquee style="border:#33FFFF 2px SOLID"><FONT COLOR=#FFFFFF>Welcome to     Flashlight Calculator!</FONT></MARQUEE></h1>
+<h1><marquee style="border:#33FFFF 2px SOLID"><FONT COLOR=#FFFFFF>Welcome to     Flashlight Calculator WOWWWWWWWWW!</FONT></MARQUEE></h1>
 </head>
 
 <?php
@@ -17,12 +17,16 @@ if( isset( $_REQUEST['calculate'] ))
 		$add2 = $_REQUEST['lvalue'];
 		$res= $add1+$add2;
 	}
-	if($operator=="-")
-	{
-		$add1 = $_REQUEST['fvalue'];
-		$add2 = $_REQUEST['lvalue'];
-		$res= $add1-$add2;
-	}
+         if($operator=="-")
+
+        {
+                $add1 = $_REQUEST['fvalue'];
+                $add2 = $_REQUEST['lvalue'];
+                $res= $add1-$add2;
+        }
+  
+	
+	
 	if($operator=="*")
 	{
 		$add1 = $_REQUEST['fvalue'];
