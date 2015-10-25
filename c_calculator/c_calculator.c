@@ -3,7 +3,10 @@
 int main()
 {
 	float num1, num2,total;
-	char o;
+	char o,yes;
+	yes = 'y';
+        while (yes == 'y' || yes == 'Y')
+	{
 	printf("Enter the first number: ");
 	scanf("%f",&num1);
 	printf("Enter the second number: ");
@@ -29,6 +32,9 @@ int main()
 			break;
 		default :
 			printf("Please enter Operator (+ - * /)\n");
+	}
+	printf("\nDo you want to continue?(Y/N): ");
+	scanf(" %c", &yes);
 	}
 	        return 0;
 
