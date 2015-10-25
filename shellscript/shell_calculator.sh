@@ -3,12 +3,13 @@
 sum=0
 i="y"
 
-echo "Enter the first number"
-read n1
-echo "Enter the second number"
-read n2
+
 while [ $i = "y" ]
 do
+echo "Enter first number"
+read n1
+echo "Enter second number"
+read n2
 	echo "Enter your operator(+ - * /)"
 	read ch
 	case $ch in
